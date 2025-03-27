@@ -14,7 +14,7 @@ for(int x = s; x < n; x++)
 {
     printf("%d\n",a[x]);
 }
-for(int x = 0; x < n-s+1; x++)
+for(int x = 0; x < n-s; x++)
 {
     printf("%d\n",a[x]);
 }
