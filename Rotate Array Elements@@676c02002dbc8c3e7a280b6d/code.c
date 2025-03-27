@@ -10,11 +10,11 @@ for(int x = 0; x < n; x++)
 }
 int s;
 scanf("%d",&s);
-for(int x = s+1; x <= n; x++)
+for(int x = s+1; x < n; x++)
 {
     printf("%d\n",a[x]);
 }
-for(int x = 0; x < n-s; x++)
+for(int x = 0; x <= n-s; x++)
 {
     printf("%d\n",a[x]);
 }
