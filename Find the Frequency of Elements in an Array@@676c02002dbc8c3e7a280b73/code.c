@@ -12,7 +12,7 @@ int main(){
             if(a[x] == a[y])
             c = c+1;
         }
-        printf("%d &d",a[x],c);
+        printf("%d %d\n",a[x],c);
     }
     return 0;
 }
