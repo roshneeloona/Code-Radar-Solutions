@@ -10,8 +10,9 @@ int isPrime(int x){
     else 
     return 0;
 }
-void main(){
+int main(){
     int t;
     scanf("%d",&t);
-    printf(isPrime(t));
+    printf("%d", isPrime(t));
+    return 0;
 }
