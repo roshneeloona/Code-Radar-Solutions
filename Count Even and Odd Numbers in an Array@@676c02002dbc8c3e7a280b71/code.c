@@ -6,7 +6,7 @@ int main(){
     for(int x = 0; x < n; x++){
         scanf("%d",&a[x]);
     }
-    int odd = 0; even = 0; 
+    int odd = 0, even = 0; 
     for(int x = 0; x < n; x++){
         if(a[x]%2 == 0)
         even+=1;
