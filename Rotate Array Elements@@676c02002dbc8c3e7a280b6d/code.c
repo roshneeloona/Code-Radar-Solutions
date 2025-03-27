@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 int n;
 scanf("%d",&n);
 int a[n];
@@ -9,7 +10,7 @@ for(int x = 0; x < n; x++)
 }
 int s;
 scanf("%d",&s);
-for(int x = s; x <= a; x++)
+for(int x = s; x < n; x++)
 {
     printf("%d\n",a[x]);
 }
