@@ -10,7 +10,7 @@ int main(){
     for(int x = 0; x < n; x++){
         if(a[x]>max)
         max = a[x];
-        if(a[x<min])
+        if(a[x]<min)
         min = a[x];
     }
     printf("%d %d",min,max);
