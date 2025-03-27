@@ -2,8 +2,7 @@
 int main(){
     int t;
     scanf("%d",&t);
-    int p = isPrime(t);
-    printf(p);
+    printf(isPrime(t));
 }
 int isPrime(int x){
     int r,c=0,d = x;
