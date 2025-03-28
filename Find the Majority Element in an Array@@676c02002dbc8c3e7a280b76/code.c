@@ -13,7 +13,7 @@ int main(){
             if (ar[x]==ar[y])
             c = c+1;
         }
-        if(c>max)
+        if(c>=max)
         max = ar[x];
         else
         max = -1;
