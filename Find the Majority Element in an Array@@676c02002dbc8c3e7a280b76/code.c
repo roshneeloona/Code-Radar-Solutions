@@ -14,7 +14,7 @@ int main(){
             c = c+1;
         }
         if(c>=max)
-        max = c;
+        max = a[x];
         else
         max = -1;
     }
