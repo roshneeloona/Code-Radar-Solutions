@@ -11,5 +11,11 @@ int main(){
         printf("%d\n",a[x]);
         return 0;
 }
+if(n > 1 && a[0] > n[1])
+        printf("%d\n",a[0]);
+else if (n > 1 && a[n - 1] > a[n - 2])
+printf("%d\n", a[n-1]);
+else
+printf("-1");
 return 0;
 } 
