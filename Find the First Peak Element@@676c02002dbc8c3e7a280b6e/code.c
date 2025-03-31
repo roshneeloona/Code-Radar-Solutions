@@ -9,13 +9,10 @@ int main(){
     for(int x = 1; x < n-1; x++){
         if(a[x - 1] < a[x] && a[x] > a[x + 1])
         printf("%d\n",a[x]);
-        break;
 }
 if(n > 1 && a[0] > a[1])
         printf("%d\n",a[0]);
 else if (n > 1 && a[n - 1] > a[n - 2])
 printf("%d\n", a[n-1]);
-else
-printf("-1");
 return 0;
 } 
