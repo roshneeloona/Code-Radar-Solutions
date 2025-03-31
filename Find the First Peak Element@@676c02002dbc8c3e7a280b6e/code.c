@@ -7,9 +7,9 @@ int main(){
         scanf("%d",&a);
     }
     for(int x = 1; x < n-1; x++){
-        if(a[x-1] < a[x] && a[x] > a[x+1])
-        printf("%d",a[x]);
-        break ;
+        if(a[x - 1] < a[x] && a[x] > a[x + 1])
+        printf("%d\n",a[x]);
+        return 0;
 }
 return 0;
 } 
