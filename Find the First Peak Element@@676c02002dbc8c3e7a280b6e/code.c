@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int a[n];
     for(int x = 0; x < n; x++){
-        scanf("%d",&a);
+        scanf("%d",&a[x]);
     }
     for(int x = 1; x < n-1; x++){
         if(a[x - 1] < a[x] && a[x] > a[x + 1])
